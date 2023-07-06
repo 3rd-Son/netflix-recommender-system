@@ -27,4 +27,3 @@ jsonschema
 tmdbv3api
 urllib3
 requests
-scipy
