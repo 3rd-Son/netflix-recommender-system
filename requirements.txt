@@ -14,5 +14,4 @@ tmdbv3api
 lxml
 urllib3
 requests
-pickleshare
-scipy.sparse._csr
+pickleshar
