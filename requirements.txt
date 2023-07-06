@@ -21,7 +21,6 @@ virtualenv==20.0.7
 Werkzeug==1.0.1
 wincertstore==0.2
 catboost>=0.2
-Werkzeug
 nltk
 beautifulsoup4
 jsonschema
