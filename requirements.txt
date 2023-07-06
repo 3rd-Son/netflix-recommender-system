@@ -1,5 +1,5 @@
 beautifulsoup4==4.11.1
-Flask==2.3.2
+Flask==2.2.2
 myapp==0.1.dev0
 numpy==1.23.5
 pandas==1.5.2
