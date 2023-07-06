@@ -13,4 +13,4 @@ tmdbv3api
 lxml
 urllib3
 requests
-pickleshar
+pickle
