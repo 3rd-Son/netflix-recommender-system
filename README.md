@@ -1,92 +1,73 @@
 
-# **Building And Deploying A Netflix Recommender System**
-
-Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
-
-The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API. 
-
-We use *web scraping* to get the reviews given by the user in the IMDB site using beautifulsoup4 and performed sentiment analysis on those reviews.
-## Running Flask Tests
-
-To run a Flask deployment tests, run the following command
-
-```bash
-  python main.py
-```
-
-
-## Running Heroku Tests
-
-To run a Heroku deployment tests, click on the following link:
-
-[Netflix Recommender System App](https://netflixrecommenderapp.herokuapp.com/)
-
-
-## Deployment
-
-### Steps To Deploy The App:
-
-Prepare your dataset:
-
-        1. Data Extraction
-        2. Exploratory Data Analysis(EDA)
-        3. Feature Engineering
-        4. Model Building and Tuning
-        5. Building Flask API
-        6. Pushing code to Github
-        7. Connecting to your Heroku account 
-        8. Deploy App
-
-
-## Demo
-
-[Click HERE To View App](https://netflixrecommenderapp.herokuapp.com/)
-
-
-
-
+# NETFLIX RECOMMENDER SYSTEM
 
 ![logo](https://github.com/MrBriit/Netflix-Recommender-System-and-Deployment/blob/main/net%20screenshot.png?raw=true)
 
 
-## 🚀 About Me
-I'm a Full Stack Data Scientist
+
+The **Netflix Recommender System** is a web application that provides movie recommendations based on content similarity. It utilizes data scraped from Wikipedia, specifically focusing on American movies. The recommender system is built using Flask, JavaScript, HTML, CSS, and other relevant libraries. The system incorporates features such as movie search, similar movie recommendations, top cast members, comments, average rating, release date, genre, runtime, and status.
+
+## Features
+
+- **Content-Based Recommendation**: The system generates movie recommendations based on the content similarity of movies.
+- **Movie Search**: Users can search for movies by title.
+- **Similar Movie Recommendations**: The system provides a list of similar movies based on the selected movie.
+- **Top Cast Members**: Users can view the top cast members of a movie.
+- **Comments and Average Rating**: Users can read comments and view the average rating of a movie.
+- **Release Date**: The system displays the release date of each movie.
+- **Genre, Runtime, and Status**: Users can see the genre, runtime, and status (e.g., released, upcoming) of movies.
+
+## Technologies Used
+
+The Netflix Recommender System utilizes the following technologies:
+
+- Flask: A web framework used for handling server-side logic and serving web pages.
+- JavaScript: Used for interactivity and dynamic behavior on the client-side.
+- HTML: Used for creating the structure and layout of web pages.
+- CSS: Utilized for styling and enhancing the visual appeal of the application.
+- Beautiful Soup and Requests: Used for web scraping data from Wikipedia.
+- Sentiment Analysis: Performed sentiment analysis on the scraped data.
+
+## Setup
+
+To set up and run the Netflix Recommender System locally, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies specified in the requirements file.
+3. Use Beautiful Soup and Requests to scrape data from Wikipedia.
+4. Perform sentiment analysis on the scraped data.
+5. Start the Flask development server.
+6. Access the Netflix Recommender System through your browser.
+
+## Usage
+
+1. **Search for a Movie**: Enter the title of a movie in the search bar to find specific movies.
+2. **Similar Movie Recommendations**: After selecting a movie, the system will provide a list of similar movie recommendations.
+3. **Top Cast Members**: Users can view the top cast members of a movie.
+4. **Comments and Average Rating**: Read comments and view the average rating of a movie.
+5. **Release Date**: The release date of each movie is displayed.
+6. **Genre, Runtime, and Status**: Users can see the genre, runtime, and status (e.g., released, upcoming) of movies.
+
+## Contributing
+
+Contributions to the Netflix Recommender System are welcome! Fork the repository, make your changes, and submit a pull request with a clear explanation of your modifications.
+
+## License
+
+The Netflix Recommender System is licensed under the MIT License.
+
+## Contact
+
+If you have any questions, suggestions, or feedback, please feel free to contact the project maintainer at [nnajivictorious@gmal.com](mailto:nnajivictorious@gmal.com).
+
+Thank you for using the Netflix Recommender System! Enjoy discovering new movies tailored to your preferences.
 
 
-# Hi, I'm Vic3sax
+
+
 
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victory-nnaji-8186231b7/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SaxVictory)
-
-
-## 🛠 Skills
-- Python  
-
-- Statistics 
-
-- SQL 
-- Machine Learning 
-- Deep Learning
-- Artificial Intelligence
-- Data Science
-
-
-
-
-
-![Logo](https://github-readme-stats.vercel.app/api?username=Vic3sax&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)
-
-
-## Tech Stack
-
-
-
-
-
-![Logo](https://businesstoys.in/assets/programs/full-stack-data-science-professional-program/tools.png)
-
-
-
 
