@@ -1,7 +1,7 @@
 
 # NETFLIX RECOMMENDER SYSTEM
 
-![logo](https://github.com/MrBriit/Netflix-Recommender-System-and-Deployment/blob/main/net%20screenshot.png?raw=true)
+![logo](https://github.com/Vic3sax/netflix-recommender-website/blob/main/recomender.jpeg)
 
 
 
